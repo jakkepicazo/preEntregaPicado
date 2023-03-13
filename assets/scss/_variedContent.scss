@@ -1,0 +1,47 @@
+/*Various web content*/
+
+
+#Principal {
+	width: 100%;
+	height: 400px;
+	background: $background-color_1;
+}
+#div1 {
+	margin: 0;
+	width: 50%;
+	height: inherit;
+	display: block;
+	float: left;
+}
+#div2 {
+	width: 50%;
+	height: inherit;
+	display: block;
+	float: left;
+}
+
+
+header {
+	grid-area: header;
+}
+.div1 {
+	grid-area: div1;
+	text-align: center;
+	top: 0;
+	z-index: auto;
+}
+.div2 {
+	grid-area: div2;
+	position: sticky;
+	top: 0;
+	z-index: auto;
+}
+
+.texto {
+	grid-area: pruebasMedicas;
+}
+.parrafoAcercaDe {
+	grid-area: parrafoAcercaDe;
+}
+
+

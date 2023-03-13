@@ -1,0 +1,20 @@
+/*We make it responsive*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation:landscape) {
+	.body {
+		display: grid;
+		grid-template-areas: "header""header" "div1""div2" "imagenes""imagenes" "pruebasMedicas""pruebasMedicas" "div1""div2" "footer-basic""footer-basic";
+	}
+}
+@media (min-width: 1025px) and (max-width: 1281px) {
+	.body {
+		grid-template-areas: "header""header" "div1""div2" "imagenes""imagenes" "pruebasMedicas""pruebasMedicas" "div1""div2" "footer-basic""footer-basic";
+	}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	.body {
+		grid-template-areas: "header" "div2" "imagenes" "pruebasMedicas" "parrafoAcercaDe" "footer-basic";
+	}
+	aside {
+		display: none;
+	}
+}

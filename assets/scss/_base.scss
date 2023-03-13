@@ -1,0 +1,12 @@
+/*Body*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: $background-color_1;
+	font-family: $font-family_1;
+	grid-area: body;
+}

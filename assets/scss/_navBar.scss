@@ -1,0 +1,25 @@
+/*NavBar*/
+.navbar {
+	background-color: $background-color_1;
+	overflow: hidden;
+	a {
+		float: left;
+		display: block;
+		color: $color_1;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+		&:hover {
+			background-color: $background-color_2;
+			color: $color_2;
+		}
+	}
+	a.active {
+		background-color: $background-color_1;
+		color: $color_3;
+	}
+	.icon {
+		display: none;
+	}
+}

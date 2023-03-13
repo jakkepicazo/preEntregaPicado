@@ -1,0 +1,23 @@
+.img1 {
+	width: 60%;
+	height: 50%;
+}
+.img2 {
+	width: 70%;
+	height: 70%;
+}
+.imagenes {
+	grid-area: imagenes;
+}
+
+.slider-container {
+	display: flex;
+	width: 50%;
+	height: 50vh;
+	img {
+		flex: 0 0 50%;
+		width: 50%;
+		object-fit: cover;
+		scroll-snap-align: center;
+	}
+}
